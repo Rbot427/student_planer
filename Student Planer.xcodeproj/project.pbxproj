@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9433A1351AA922F40058903B /* SPDayTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433A1341AA922F40058903B /* SPDayTabView.m */; };
 		943F70FB1AA4856300E1F9A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F70FA1AA4856300E1F9A1 /* main.m */; };
 		943F70FE1AA4856300E1F9A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F70FD1AA4856300E1F9A1 /* AppDelegate.m */; };
-		943F71011AA4856300E1F9A1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F71001AA4856300E1F9A1 /* FirstViewController.m */; };
-		943F71041AA4856300E1F9A1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F71031AA4856300E1F9A1 /* SecondViewController.m */; };
 		943F71071AA4856300E1F9A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943F71051AA4856300E1F9A1 /* Main.storyboard */; };
 		943F71091AA4856400E1F9A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943F71081AA4856400E1F9A1 /* Images.xcassets */; };
 		943F710C1AA4856400E1F9A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 943F710A1AA4856400E1F9A1 /* LaunchScreen.xib */; };
 		943F71181AA4856400E1F9A1 /* Student_PlanerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F71171AA4856400E1F9A1 /* Student_PlanerTests.m */; };
+		947A66D21AAFBC9100ECB07C /* SPEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = 947A66D11AAFBC9100ECB07C /* SPEventView.m */; };
+		947A66D51AAFBE0200ECB07C /* SPData.m in Sources */ = {isa = PBXBuildFile; fileRef = 947A66D41AAFBE0200ECB07C /* SPData.m */; };
+		94C575361AAC0EDE002F9E46 /* SPEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C575351AAC0EDE002F9E46 /* SPEvent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +30,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9433A1331AA922F40058903B /* SPDayTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDayTabView.h; sourceTree = "<group>"; };
+		9433A1341AA922F40058903B /* SPDayTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDayTabView.m; sourceTree = "<group>"; };
 		943F70F51AA4856300E1F9A1 /* Student Planer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student Planer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		943F70F91AA4856300E1F9A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		943F70FA1AA4856300E1F9A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		943F70FC1AA4856300E1F9A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		943F70FD1AA4856300E1F9A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		943F70FF1AA4856300E1F9A1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		943F71001AA4856300E1F9A1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		943F71021AA4856300E1F9A1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		943F71031AA4856300E1F9A1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		943F71061AA4856300E1F9A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		943F71081AA4856400E1F9A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		943F710B1AA4856400E1F9A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		943F71111AA4856400E1F9A1 /* Student PlanerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Student PlanerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		943F71161AA4856400E1F9A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		943F71171AA4856400E1F9A1 /* Student_PlanerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student_PlanerTests.m; sourceTree = "<group>"; };
+		947A66D01AAFBC9100ECB07C /* SPEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPEventView.h; sourceTree = "<group>"; };
+		947A66D11AAFBC9100ECB07C /* SPEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPEventView.m; sourceTree = "<group>"; };
+		947A66D31AAFBE0200ECB07C /* SPData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPData.h; sourceTree = "<group>"; };
+		947A66D41AAFBE0200ECB07C /* SPData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPData.m; sourceTree = "<group>"; };
+		94C575341AAC0EDE002F9E46 /* SPEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPEvent.h; sourceTree = "<group>"; };
+		94C575351AAC0EDE002F9E46 /* SPEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPEvent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +92,14 @@
 			children = (
 				943F70FC1AA4856300E1F9A1 /* AppDelegate.h */,
 				943F70FD1AA4856300E1F9A1 /* AppDelegate.m */,
-				943F70FF1AA4856300E1F9A1 /* FirstViewController.h */,
-				943F71001AA4856300E1F9A1 /* FirstViewController.m */,
-				943F71021AA4856300E1F9A1 /* SecondViewController.h */,
-				943F71031AA4856300E1F9A1 /* SecondViewController.m */,
+				94C575341AAC0EDE002F9E46 /* SPEvent.h */,
+				94C575351AAC0EDE002F9E46 /* SPEvent.m */,
+				947A66D01AAFBC9100ECB07C /* SPEventView.h */,
+				947A66D11AAFBC9100ECB07C /* SPEventView.m */,
+				9433A1331AA922F40058903B /* SPDayTabView.h */,
+				9433A1341AA922F40058903B /* SPDayTabView.m */,
+				947A66D31AAFBE0200ECB07C /* SPData.h */,
+				947A66D41AAFBE0200ECB07C /* SPData.m */,
 				943F71051AA4856300E1F9A1 /* Main.storyboard */,
 				943F71081AA4856400E1F9A1 /* Images.xcassets */,
 				943F710A1AA4856400E1F9A1 /* LaunchScreen.xib */,
@@ -224,10 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				943F71041AA4856300E1F9A1 /* SecondViewController.m in Sources */,
+				947A66D51AAFBE0200ECB07C /* SPData.m in Sources */,
+				947A66D21AAFBC9100ECB07C /* SPEventView.m in Sources */,
 				943F70FE1AA4856300E1F9A1 /* AppDelegate.m in Sources */,
-				943F71011AA4856300E1F9A1 /* FirstViewController.m in Sources */,
+				94C575361AAC0EDE002F9E46 /* SPEvent.m in Sources */,
 				943F70FB1AA4856300E1F9A1 /* main.m in Sources */,
+				9433A1351AA922F40058903B /* SPDayTabView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Student Planer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Student Planer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +432,7 @@
 				943F711D1AA4856400E1F9A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		943F711E1AA4856400E1F9A1 /* Build configuration list for PBXNativeTarget "Student PlanerTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				943F71201AA4856400E1F9A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
