@@ -8,15 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SPData : NSObject //Very general data managing object.  Subclass and add to your needs.
-@property NSArray* data; //Reference to data contained in the user's plist file
-@property NSBundle* mainBundle;
-@property NSString* path;
+@interface SPData : NSObject //Very general data (could delete) managing object.  Subclass and add to your needs.
 
--(SPData*) init; //Generic init
-+(SPData*) SPDataWithBundle: (NSBundle*) mainBundle; //Initilizes a SPData object with a specified bundle
-+(SPData*) SPDataWithPath: (NSString*) path;
--(void) loadWithBundle; //Loads from a bundle specified during SPDataWithBundle:mainBundle method into data property
--(void) loadWithPath: (NSString*) path; //Loads from a specified path.
++(id) loadFileContents:(NSString*) path;
++(NSArray*) loadFileIntoArray:(NSString*) path;
++(NSDictionary*) loadFileIntoDictionary:(NSString*) path;
 
 @end

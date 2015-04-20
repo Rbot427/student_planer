@@ -8,16 +8,26 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "SPEvent.h"
+#import "SPEventViewController.h"
 
 @interface SPDayTabView : UIViewController
-@property NSInteger* count;
-@property NSMutableArray* events;
+@property (nonatomic) UIScrollView* view;
+@property int count;
+@property NSMutableArray* eventViews;
 @property IBOutlet UIButton* myButton;
-@property NSInteger* divideSpace;
+@property IBOutlet UIButton* removeButton;
+@property int divideSpace;
+@property IBOutlet UILabel* debugLabel;
+@property int length; //The downwards length of the view
 
 -(SPDayTabView*) init;
--(void) appendEventToViewStack: (SPEvent*) event;
--(IBAction)buttonPressed:(id)sender;
+-(void) appendEventToViewStack: (SPEventViewController*) event;
+-(void) removeEventFromViewStack: (NSUInteger) index;
+-(void) updateEventTagsBeyondPosition: (NSUInteger) index;
+-(void) updateEventPositionBeyondIndex: (NSUInteger) index by: (NSUInteger)amount;
+-(IBAction)buttonPressed:(id)sender; //Will remove
+-(IBAction)additionalPressureAppliedToButton:(id)sender;
+-(void) updateContentSize: (CGSize) size;
+-(CGSize) getViewSize;
 
 @end

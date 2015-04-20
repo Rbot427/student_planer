@@ -9,5 +9,15 @@
 #import "SPData.h"
 
 @implementation SPData
++(id) loadFileContents:(NSString *)path {
+    return [NSArray arrayWithContentsOfFile:path]; //Kind of the exact same as load with array...
+}
 
++(NSArray*) loadFileIntoArray:(NSString *)path {
+    return [NSArray arrayWithContentsOfFile:path];
+}
+
++(NSDictionary*) loadFileIntoDictionary:(NSString *)path {
+    return [NSDictionary dictionaryWithContentsOfFile:path];
+}
 @end
