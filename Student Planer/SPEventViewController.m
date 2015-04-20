@@ -59,9 +59,14 @@
     self.eventLabel.text = text;
 }
 
+@synthesize tag = _tag;
 -(void) setTag:(NSUInteger)tag { //CRASH:  Come back to how to do this shit
-    self.tag = tag;
+    _tag = tag;
     self.dataDelegate.tag = tag;
+}
+
+-(NSUInteger) tag {
+    return _tag;
 }
 
 -(void) destroy {
